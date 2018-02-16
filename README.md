@@ -34,3 +34,15 @@ TTL(Time To Live): https://en.wikipedia.org/wiki/Time_to_live
            >>BufferSize_TTL
            Host >>
            Path >>
+
+<h1>HOW IT WORKS:</h1><br />
+             At Ping program you can specify the bufferSize and the TTL<br />
+             So if i type a command like:<br />
+             >> ping www.google.com -l 1465    //-l is for bufferSize<br />
+             If the buffer size is too much for the host it returns an error target unreachable.<br /> 
+             And if i type a command like:<br />
+             >> ping www.google.com -i 4       //-i is for ttl<br />
+             If the ttl time exceeded it will throw an Time Exceeded Error(Error 11)<br />
+             We use the os python library so we can execute cmd commands and get their output<br />
+             So we run a while loop and we execute every posible MaxBufferSize And MaxTTL<br />
+             We filter the output and we are done.<br />
