@@ -38,7 +38,7 @@ TTL(Time To Live): https://en.wikipedia.org/wiki/Time_to_live
 <h1>HOW IT WORKS:</h1><br />
              At Ping program you can specify the bufferSize and the TTL<br />
              So if i type a command like:<br />
-             >> ping www.google.com -l 1465    //-l is for bufferSize<br />
+             >> ping www.google.com -l 4444    //-l is for bufferSize<br />
              If the buffer size is too much for the host it returns Request timed out.<br /> 
              And if i type a command like:<br />
              >> ping www.google.com -i 4       //-i is for ttl<br />
