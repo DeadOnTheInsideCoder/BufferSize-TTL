@@ -31,6 +31,6 @@ TTL(Time To Live): https://en.wikipedia.org/wiki/Time_to_live
            >> BufferSize_TTL www.google.com
            MaxBufferSize: 1465
            MaxTTL:15
-           >>BufferSize__TTL
+           >>BufferSize_TTL
            Host >>
            Path >>
