@@ -12,7 +12,7 @@ TTL(Time To Live): https://en.wikipedia.org/wiki/Time_to_live
           1)Download zip file or clone it(https://github.com/DeadOnTheInsideCoder/BufferSize-TTL.git).<br />
           2)Unzip it and move it to desktop(If you want to place it in another directory you must change step 3 command.)<br />
           2)Open up run with windows Key + r , type cmd and hit ENTER.<br />
-          3)Type this command >> cd /Desktop/BufferSize_TTL
+          3)Type this command >> cd /Desktop/BufferSize_TTL<br />
           4)And then type this command >> BufferSize_TTL   //or you can open like this:>> python BufferSize_TTL.py OR >> BufferSize_TTL.py
 
 
