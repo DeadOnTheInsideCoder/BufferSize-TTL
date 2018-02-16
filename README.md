@@ -8,6 +8,27 @@ TCP Tuning: https://en.wikipedia.org/wiki/TCP_tuning<br />
 TTL(Time To Live): https://en.wikipedia.org/wiki/Time_to_live
 
 
+<h1>HOW TO INSTALL:</h1><br />
+          1)Download zip file or clone it(https://github.com/DeadOnTheInsideCoder/BufferSize-TTL.git).<br />
+          2)Unzip it and move it to desktop(If you want to place it in another directory you must change step 3 command.)<br />
+          2)Open up run with windows Key + r , type cmd and hit ENTER.<br />
+          3)Type this command >> cd /Desktop/BufferSize_TTL
+          4)And then type this command >> BufferSize_TTL   //or you can open like this:>> python BufferSize_TTL.py OR >> BufferSize_TTL.py
+
+
 <h1>HOW TO USE:</h1><br />
-          1)Download zip file or clo.
-          2)
+         You can specify 2 arguments:<br />
+                 First Argument is the host or ip<br />
+                 Second Argument is the output file<br />                
+         You can specify them before or after.<br />
+
+
+<h1>Example:</h1><br />
+           
+           >> BufferSize_TTL www.google.com c://Users/MyUser/Desktop/out.txt<br />
+           >> BufferSize_TTL www.google.com<br />
+           MaxBufferSize: 1465<br />
+           MaxTTL:15<br />
+           >>BufferSize__TTL<br />
+           Host >><br />
+           Path >><br />
