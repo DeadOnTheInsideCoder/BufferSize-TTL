@@ -27,10 +27,10 @@ TTL(Time To Live): https://en.wikipedia.org/wiki/Time_to_live
 
 <h1>Example:</h1><br />
            
-           >> BufferSize_TTL www.google.com c://Users/MyUser/Desktop/out.txt<br />
-           >> BufferSize_TTL www.google.com<br />
-           MaxBufferSize: 1465<br />
-           MaxTTL:15<br />
-           >>BufferSize__TTL<br />
-           Host >><br />
-           Path >><br />
+           >> BufferSize_TTL www.google.com c://Users/MyUser/Desktop/out.txt
+           >> BufferSize_TTL www.google.com
+           MaxBufferSize: 1465
+           MaxTTL:15
+           >>BufferSize__TTL
+           Host >>
+           Path >>
