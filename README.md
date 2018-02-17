@@ -19,6 +19,8 @@ TTL(Time To Live): https://en.wikipedia.org/wiki/Time_to_live
 
 
 <h1>HOW TO USE:</h1><br />
+         Don't run it with python idle.<br />
+         Run it with cmd if you are on windows.<br />
          You can specify 2 arguments:<br />
                  First Argument is the host or ip<br />
                  Second Argument is the output file<br />                
